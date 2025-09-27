@@ -201,22 +201,8 @@ nav li {
   text-align: center;
 }
 
-.li-card2::after {
-  content: "";
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  border-radius: 8px;
+.li-card2:hover {
   box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  z-index: 0;
-}
-
-.li-card2:hover::after {
-  opacity: 1;
 }
 
 .li-card2 img {
@@ -389,6 +375,7 @@ address {
 .menu a {
   position: relative;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .menu a::after {
