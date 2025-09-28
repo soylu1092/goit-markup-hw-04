@@ -275,45 +275,7 @@ ul {
   padding: 0;
   list-style: none;
 }
-.foot {
-  background-color: #2e2f42;
-  padding: 100px 0;
-  text-align: left;
 
-  margin: 0 auto;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-}
-
-.logo-foot {
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: #4d5ae5;
-  width: 115px;
-  height: 24px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-left: 156px;
-}
-
-.logo-foot span {
-  color: #ffffff;
-}
-
-.foot div p {
-  margin-top: 16px;
-  max-width: 264px;
-  font-size: 16px;
-  line-height: 1.5;
-  color: white;
-  margin-left: 156px;
-}
 .title-2 {
   margin-bottom: 72px;
 }
@@ -471,26 +433,7 @@ address {
   height: 16px;
   width: 16px;
 }
-.icon-span-foot {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  margin-top: -54px;
-  margin-left: -64px;
-}
 
-.foot-head p {
-  font-weight: 500;
-  font-size: 16;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: white;
-}
-.foot-head {
-  display: flex;
-  align-items: center;
-  gap: 200px;
-}
 .image-box {
   position: relative;
   overflow: hidden;
@@ -524,4 +467,69 @@ address {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4f4;
+}
+.icon-span-foot {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.foot-head {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+.foot-head p {
+  font-weight: 500;
+  font-size: 16;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: white;
+}
+.first-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 156px;
+}
+.foot-div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.foot {
+  background-color: #2e2f42;
+  padding: 100px 0;
+  text-align: left;
+  display: flex;
+  gap: 120px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.logo-foot {
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #4d5ae5;
+  width: 115px;
+  height: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-foot span {
+  color: #ffffff;
+}
+
+.foot div p {
+  max-width: 264px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
 }
